@@ -1,0 +1,50 @@
+#full-box {
+    box-shadow: 10px 10px 25px;
+    width: 500px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    background-color: #323232d5;
+    margin-top: 110px;
+    text-align: center;
+    font: 20pt white;
+    font-family: Helvetica, sans-serif;    
+    position: relative;
+   
+
+}
+#half-box {
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+    height: 50px;
+}
+
+#timer{
+    
+    color: white;
+}
+#frase {
+    color: white;
+    padding-top: 2vh;
+    
+}
+
+#img-bg{
+    width: 500px;
+    height: 280px;   
+    display: block;
+    align-items: center;
+    position: absolute;
+    padding-top: 4vh;
+    
+}
+#background {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: black;
+    
+}
